@@ -1,0 +1,882 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.info1 {
+    display: flex;
+}
+
+.activetime {
+    font-family: "Inter", sans-serif;
+    font-size: 400;
+    letter-spacing: 0.3;
+}
+
+.countainer {
+    display: flex;
+    margin: 0 auto;
+    width: 83%;
+}
+
+.socialsites ul {
+    list-style: none;
+    display: flex;
+    
+    gap: 15px;
+}
+
+.contacts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info1 {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.maininfo {
+    margin-bottom: 30px;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontacts {
+    display: flex;
+
+    gap: 30px;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+}
+
+.maincontacts img {
+    width: 70px;
+    height: 70px;
+}
+
+.headertxtbox { 
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phonenum {
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+}
+
+.maincontacts {
+    flex-direction: row;
+}
+
+.nav {
+    position: absolute;
+    left: 10%;
+    top: 170px;
+    height: 70px;
+    background-color: #FFB342;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countaner ul {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.active {
+    color: #FFF;
+}
+
+.nav a:not(.active) {
+    padding: 10px;
+    color: #000;
+    transition: all 200ms ease;
+}
+
+.nav a:not(.active):hover {
+    color: #F2F2F2;
+}
+
+.nav button {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    margin-right: 10px;
+
+    color: #FFF;
+    background-color: #1C2752;
+    width: 250px;
+    height: 50px;
+
+    transition: all 200ms ease;
+}
+
+.nav button:hover {
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #1C2752;
+}
+
+.bgmainbox {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    min-height: 100%;
+    background-image: url(../pictures/4d8ed3db0eac90229275906d2e7ee77d.png);
+    background-size: 100%;
+}
+
+.txtframe1 {
+    font-family: "Inter", serif;
+    font-weight: 400;
+
+    font-size: 18px;
+    color: #FFF;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF33;
+    align-items: center;
+}
+
+.maintxt {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+    color: #FFF;
+    font-size: 60px;
+    width: 700px;
+    line-height: 78px;
+}
+
+.mainbox button {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+
+    width: 230px;
+    height: 70px;
+    background-color: #FFB342;
+}
+
+.mainbox {
+    height: 350px;
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.whatwedo {
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 10px;
+}
+
+.wahtwefirsttxt {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1C2752;
+
+    background-color: #F4F4F4;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.whatwedomaindiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatwedotxtbox {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 800px;
+}
+
+.whatwedoimage {
+    width: 90%;
+}
+
+.whatwedotxtbox h1 {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+
+    font-size: 45px;
+}
+
+.whatwetxtcountainer {
+    color: #7E7E7E;
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 17px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experiencebox {
+    background-color: #F4F4F4;
+    font-family: "Mulish", serif;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 200px;
+    height: 220px;
+}
+
+.whatweexperience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whatweexperience h1 {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    color: #FFB342;
+    font-size: 80px;
+}
+
+.whatweexperience p {
+    width: 110px;
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.whatweexperience ul {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #7E7E7E;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.mainservices {
+    height: 900px;
+    background-color: #FFB342;
+}
+
+.mainserv {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.whatweoffertxt {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    width: 15%;
+    background-color: #F4F4F4;
+    gap: 10px;
+}
+
+.mainsrvtxt {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mainsrvtxt h1 {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+
+    color: #1C2752;
+    margin-bottom: 15px;
+}
+
+.mainsrvtxt p {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    color: #1C2752;
+}
+
+.mainservbtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainservbtn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border: 2px solid #1C2752;
+
+    width: 230px;
+    padding: 10px;;
+
+    transition: all 200ms ease;
+}
+
+.servactive {
+    background-color: #FFF;
+}
+
+.mianservfirstbox {
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+}
+
+.mainservbtn button:hover {
+    background-color: #FFF;
+}
+
+/* comercial box */
+
+.commercialwindow {
+    box-shadow: 0 0 10px 10px #00000017;
+    position: absolute;
+    top: 2300px;
+    background-color: #F4F4F4;
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-around;
+
+    gap: 60px;
+}
+
+.comercialfirsthalf {
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.comercialimg {
+    width: 410px;
+    height: 366px;
+    margin-right: 60px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.comercialfirsthalf {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.comercialH1txt {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 260px;
+    gap: 10px;
+}
+
+.comercialwindowtxtbox {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.comercialwindowtxtbox h1 {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.comercialwindowtxtbox p {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+
+    width: 510px;
+}
+
+.comercialwindowbtn button {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    width: 200px;
+    height: 60px;
+    background-color: #FFB342;
+}
+
+/* Mobile ver */
+
+
+
+@media (width < 720px) {
+    .nav {
+        position: absolute;
+        left: 10%;
+        top: 320px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFB342;
+        width: 83%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 10px;
+    }
+
+    .nav button {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        margin-right: 0px;
+    
+        color: #FFF;
+        background-color: #1C2752;
+        width: 250px;
+        height: 50px;
+    
+        transition: all 200ms ease;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .maininfo {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 400px;
+
+        gap: 10px;
+    }
+
+    .maincontacts {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bgmainbox {
+        display: flex;  
+        height: 500px;
+        min-height: 100%;
+        background-image: url(../pictures/phonebg.png);
+        background-size: 100%;
+    }
+
+    .mainbox {
+        display: flex;
+        align-items: center;
+    }
+    
+    .txtframe1 {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        text-align: center;
+    
+        font-size: 12px;
+        color: #FFF;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #FFFFFF33;
+        align-items: center;
+    }
+    
+    .maintxt {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-align: center;
+    
+        color: #FFF;
+        font-size: 30px;
+        width: 250px;
+        line-height: 1.5;
+    }
+
+    .bgmainbox .countainer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Whatwedobox */
+
+    .whatwedo {
+        margin: 0 auto;
+        margin-top: 200px;
+        margin-bottom: 250px;
+        height: 800px;
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        align-items: center;
+        
+        gap: 10px;
+    }
+    
+    .wahtwefirsttxt {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #1C2752;
+    
+        background-color: #F4F4F4;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .whatwedomaindiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .whatwedotxtbox {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+
+        text-align: center;
+    
+        width: 300px;
+    }
+    
+    .whatwedoimage {
+        width: 500px;
+    }
+    
+    .whatwedotxtbox h1 {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+    
+        font-size: 45px;
+    }
+    
+    .whatwetxtcountainer {
+        color: #7E7E7E;
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 17px;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .experiencebox {
+        background-color: #F4F4F4;
+        font-family: "Mulish", serif;
+        font-weight: 400;
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+        width: 200px;
+        height: 220px;
+    }
+    
+    .whatweexperience {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .whatweexperience h1 {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        color: #FFB342;
+        font-size: 80px;
+    }
+    
+    .whatweexperience p {
+        width: 110px;
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+    }
+    
+    .whatweexperience ul {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #7E7E7E;
+    
+        display: flex;
+        flex-direction: column;
+    
+        gap: 15px;
+    }
+
+    .mainsrvtxt {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    .mainsrvtxt h1 {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .mainsrvtxt p {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .whatweoffertxt {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    
+        width: 50%;
+        background-color: #F4F4F4;
+        gap: 10px;
+    }
+
+    /* Mainservices */
+    
+    .mainservices {
+        height: 900px;
+        background-color: #FFB342;
+    }
+    
+    .mainserv {
+        width: 600px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    
+    .whatweoffertxt {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    
+        width: 50%;
+        background-color: #F4F4F4;
+        gap: 10px;
+    }
+    
+    .mainsrvtxt {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .mainsrvtxt h1 {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 37px;
+        text-align: center;
+    
+        color: #1C2752;
+        margin-bottom: 15px;
+    }
+    
+    .mainsrvtxt p {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    
+        color: #1C2752;
+    }
+    
+    .mainservbtn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .mainservbtn button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+        border: 2px solid #1C2752;
+    
+        width: 230px;
+        padding: 10px;;
+    }
+    
+    .mianservfirstbox {
+        display: flex;
+        flex-direction: column;
+    
+        gap: 50px;
+    }
+
+    /* comercialbox */
+
+    .countainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .commercialwindow {
+        box-shadow: 0 0 10px 10px #00000017;
+        position: absolute;
+        top: 3200px;
+        background-color: #F4F4F4;
+        width: 300px;
+        height: 950px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        gap: 20px;
+    }
+    
+    .comercialimg {
+        width: 270px;
+        margin: 0 auto;
+    }
+    
+    .comercialfirsthalf {
+        display: flex;
+        flex-direction: column;
+    
+        gap: 20px;
+    }
+    
+    .comercialH1txt {
+        background-color: #F4F4F4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 200px;
+        gap: 10px;
+    }
+    
+    .comercialwindowtxtbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    
+        gap: 20px;
+    }
+    
+    .comercialwindowtxtbox h1 {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    
+    .comercialwindowtxtbox p {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    
+        width: 200px;
+    }
+    
+    .comercialwindowbtn button {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 20px;
+    
+        width: 200px;
+        height: 60px;
+        background-color: #FFB342;
+    }
+}
