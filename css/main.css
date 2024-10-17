@@ -227,6 +227,7 @@
 }
 
 .whatwedoimage {
+    box-shadow: 0 0 10px 10px #00000050;
     width: 90%;
 }
 
@@ -431,6 +432,7 @@
 .comercialwindowtxtbox {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     gap: 10px;
 }
@@ -584,7 +586,156 @@
     height: 48px;
 }
 
+/* Why Choose Us */
 
+.whychooseus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whychooseusfirsthalf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 720px;
+    height: 720px;
+
+    background-image: url(../pictures/phonebg.png);
+    background-size: 100%;
+}
+
+.whychooseussecondhalf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+    width: 600px;
+    margin-right: 60px;
+}
+
+.whychooseusmarklist {
+    width: 600px;
+}
+
+.whychooseuslist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1C2752DB;
+    width: 560px;
+    height: 570px;
+
+    scale: 0.8;
+}
+
+.whychooseuslist ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.whychooseuslist ul li {
+    display: flex;
+}
+
+.whychooseuslist ul li h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    width: 200px;
+    height: 70px;
+    background-color: #FFB342;
+}
+
+.whychooseuslist ul li p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFF;
+
+    height: 70px;
+    border: 1px solid #FFF;
+    width: 100%;
+}
+
+.whychooseeusfirsttxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1C2752;
+
+    width: 200px;
+    background-color: #F4F4F4;
+}
+
+.whychooseusmaintxtbox {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.whychooseusmaintxtbox h1 {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 45px;
+
+    color: #1C2752;
+}
+
+.whychooseusmaintxtbox p {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7E7E7E;
+}
+
+.whychooseusmarklist {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    gap: 25px;
+}
+
+.mark {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 20px;
+}
+
+.whychooseusmarktxt h1 {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1C2752;
+    letter-spacing: 0.3;
+}
+
+.whychooseusmarktxt p {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #7E7E7E;
+}
 
 
 /* Mobile ver */
@@ -1132,5 +1283,156 @@
         width: 48px;
         height: 48px;
     }
-        
+
+    /* Why Choose Us */
+
+    .whychooseus {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whychooseusfirsthalf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 500px;
+
+        background-image: url(../pictures/phonebg.png);
+        background-size: 100%;
+    }
+
+    .whychooseussecondhalf {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        gap: 23px;
+        width: 100%;
+        margin-right: 60px;
+    }
+
+
+    .whychooseuslist {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #1C2752DB;
+        width: 1000px;
+        height: 450px;
+
+        scale: 0.8;
+    }
+
+    .whychooseuslist ul {
+        display: flex;
+        flex-direction: column;
+
+        scale: 0.9;
+        gap: 25px;
+    }
+
+    .whychooseuslist ul li {
+        display: flex;
+    }
+
+    .whychooseuslist ul li h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 24px;
+
+        width: 200px;
+        height: 70px;
+        background-color: #FFB342;
+    }
+
+    .whychooseuslist ul li p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: #FFF;
+
+        height: 70px;
+        border: 1px solid #FFF;
+        width: 100%;
+    }
+
+    .whychooseeusfirsttxt {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #1C2752;
+
+        width: 200px;
+        background-color: #F4F4F4;
+    }
+
+    .whychooseusmaintxtbox {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 11px;
+    }
+
+    .whychooseusmaintxtbox h1 {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 45px;
+
+        color: #1C2752;
+    }
+
+    .whychooseusmaintxtbox p {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #7E7E7E;
+    }
+
+    .whychooseusmarklist {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+
+        gap: 25px;
+    }
+
+    .mark {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+    .whychooseusmarktxt h1 {
+        font-family: "Mulish", serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #1C2752;
+        letter-spacing: 0.3;
+    }
+
+    .whychooseusmarktxt p {
+        font-family: "Inter", serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: #7E7E7E;
+    }
 }
