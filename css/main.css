@@ -821,6 +821,404 @@
     color: #7E7E7E;
 }
 
+/* Forms */
+
+.Forms {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.ourreviews {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #DCDCDC;
+}
+
+.formsFirsthalf {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.formsfirsttxt {
+    font-family: 'inter';
+    font-weight: 400;
+    color: #1C2752;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+
+    background-color: #F4F4F4;
+}
+
+.formsH1 h1 {
+    color: #1C2752;
+    font-family: 'Mulish';
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.reviewheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Userprofile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.profileinfo h1 {
+    font-family: 'Mulish';
+    font-size: 22px;
+    color: #1C2752;
+}
+
+.profileinfo p {
+    font-family: 'inter';
+    font-size: 18px;
+    color: #7E7E7E;
+}
+
+.reviewbox {
+    width: 500px;
+}
+
+.reviewbox p {
+    font-family: 'inter';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    color: #7E7E7E;
+}
+
+.reviewbox span {
+    color: #1C2752;
+}
+
+.reviewpagesbtn {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.reviewpagesbtn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #F4F4F4;
+    border-radius: 99999px;
+    margin-left: 10px;
+}
+
+.reviewbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.questionsbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB342;
+    height: 300px;  
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    gap: 25px;
+}
+
+.questionsmaintxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+    background-color: #F4F4F4;
+    color: #1C2752;
+}
+
+.questiontxtbox {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.questiontxtbox h1 {
+    font-family: 'Mulish';
+    font-size: 25px;
+    color: #1C2752;
+}
+
+.questiontxtbox p {
+    font-family: 'inter';
+    font-size: 18px;
+    color: #1C2752;
+}
+
+.contactquestionbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.contactquestionbox h1 {
+    font-family: 'Mulish';
+    font-size: 30px;
+    color: #FFF;
+}
+
+.line {
+    background-color: #DCDCDC;
+    width: 600px;
+    height: 1px;
+}
+
+.formsSecondhalf {
+    width: 50%;
+}
+
+.foemstxth1 h1 {
+    font-family: 'Mulish';
+    font-size: 45px;
+    color: #1C2752;
+}
+
+.Formbox {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #D2D2D2;
+}
+
+.Formstxtinput {
+    font-family: 'inter';
+    font-size: 16px;
+    color: #1C2752;
+    margin-top: 30px;
+}
+
+.Formstxtinput input {
+    padding: 15px;
+    border: 1px solid #D2D2D2;
+    width: 100%;
+}
+
+.Fontdiscription {
+    font-family: 'inter';
+    font-size: 16px;
+    color: #1C2752;
+    margin-top: 30px;
+}
+
+.Fontdiscription input {
+    padding: 100px;
+    width: 100%;
+    border: 1px solid #D2D2D2;  
+}
+
+.Formbox button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: #FFB342;
+}
+
+/* Prices */
+
+.pricescountainer {
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.compricesbg {
+    background-color: #F4F4F4;
+}
+
+.pricesfirstbox {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+.pricestxtfirstbox {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.pricestxtfirstbox h1 {
+    width: 60%;
+    font-family: 'Mulish';
+    font-size: 45px;
+    color: #1C2752;
+}
+
+.pricesfirsttxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+
+    font-family: 'inter';
+    font-size: 17px;
+    color: #1C2752;
+
+    background-color: #FFF;
+}
+
+.pricessmalltxt {
+    width: 30%;
+    font-family: 'inter';
+    font-size: 17px;
+    color: #7E7E7E;
+}
+
+/* Price Cards */
+
+.priccard {
+    background-color: #FFF;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.firsthalfcardtxt h1 {
+    color: #1C2752;
+    font-family: 'Mulish';
+    font-size: 32px;
+}
+
+.pricecardfirstbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.secondlalfcardtxt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secondlalfcardtxt  p {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #7E7E7E;
+}
+
+.secondlalfcardtxt h1 {
+    text-align: center;
+    width: 80px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #1C2752;
+    background-color: #FFB342;
+    padding: 1px;
+}
+
+.firsthalfcardtxt p {
+    color: #1C2752;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.Cardline {
+    background-color: #DCDCDC;
+    height: 1px;
+    width: 100%;
+}
+
+.pricecardlist ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pricecardlist ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #7E7E7E;
+}
+
+.pricecardlist ul li img {
+    width: 16px;
+    height: 16px;
+}
+
+.pricecardlist button {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #1C2752;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB342;
+    width: 100%;
+    height: 60px;
+}
+
+.pricessecondbox {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.pricesthirdbox ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricesthirdbox ul li {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 600px;
+}
+
+.priceslisttxt h1 {
+    font-family: 'Mulish';
+    font-size: 20px;
+    color: #1C2752;
+}
+
+.priceslisttxt p {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #7E7E7E;
+}
+
 
 
 /* Mobile ver */
@@ -1536,5 +1934,422 @@
         font-weight: 400;
         font-size: 17px;
         color: #7E7E7E;
+    }
+
+    .Forms {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        gap: 100px;
+    }
+
+    .formsFirsthalf {
+        width: 290px;
+        display: flex;
+        flex-direction: column;
+    
+        gap: 30px;
+    }
+    
+    .formsfirsttxt {
+        font-family: 'inter';
+        font-weight: 400;
+        color: #1C2752;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 200px;
+    
+        background-color: #F4F4F4;
+    }
+    
+    .formsH1 h1 {
+        color: #1C2752;
+        font-family: 'Mulish';
+        font-size: 35px;
+        font-weight: 400;
+    }
+    
+    .reviewheader {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .Userprofile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 220px;
+    }
+    
+    .profileinfo h1 {
+        font-family: 'Mulish';
+        font-size: 22px;
+        color: #1C2752;
+    }
+    
+    .profileinfo p {
+        font-family: 'inter';
+        font-size: 18px;
+        color: #7E7E7E;
+    }
+    
+    .reviewbox {
+        width: 300px;
+    }
+    
+    .reviewbox p {
+        font-family: 'inter';
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 700;
+        color: #7E7E7E;
+    }
+    
+    .reviewbox span {
+        color: #1C2752;
+    }
+    
+    .reviewpagesbtn {
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+    
+    .reviewpagesbtn button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        background-color: #F4F4F4;
+        border-radius: 99999px;
+        margin-left: 10px;
+    }
+    
+    .reviewbox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .questionsbg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB342;
+        height: 300px;
+        width: 120%;
+    }
+    
+    .questions {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    
+        gap: 25px;
+    }
+    
+    .questionsmaintxt {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 220px;
+        background-color: #F4F4F4;
+        color: #1C2752;
+    }
+    
+    .questiontxtbox {
+        display: flex;
+        flex-direction: column;
+    
+        gap: 15px;
+    }
+    
+    .questiontxtbox h1 {
+        font-family: 'Mulish';
+        font-size: 25px;
+        color: #1C2752;
+    }
+    
+    .questiontxtbox p {
+        font-family: 'inter';
+        font-size: 18px;
+        color: #1C2752;
+    }
+    
+    .contactquestionbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 260px;
+    }
+    
+    .contactquestionbox h1 {
+        font-family: 'Mulish';
+        font-size: 20px;
+        color: #FFF;
+    }
+    
+    .line {
+        background-color: #DCDCDC;
+        width: 300px;
+        height: 1px;
+    }
+    
+    .formsSecondhalf {
+        width: 50%;
+    }
+    
+    .foemstxth1 h1 {
+        font-family: 'Mulish';
+        font-size: 45px;
+        color: #1C2752;
+    }
+    
+    .Formbox {
+        margin-top: 50px;
+        padding: 20px;
+        border: 1px solid #D2D2D2;
+        width: 350px;
+    }
+    
+    .Formstxtinput {
+        font-family: 'inter';
+        font-size: 16px;
+        color: #1C2752;
+        margin-top: 30px;
+    }
+    
+    .Formstxtinput input {
+        padding: 15px;
+        border: 1px solid #D2D2D2;
+        width: 100%;
+    }
+    
+    .Fontdiscription {
+        font-family: 'inter';
+        font-size: 16px;
+        color: #1C2752;
+        margin-top: 30px;
+    }
+    
+    .Fontdiscription input {
+        padding: 100px;
+        width: 100%;
+        border: 1px solid #D2D2D2;  
+    }
+    
+    .Formbox button {
+        margin-top: 20px;
+        padding: 10px;
+        width: 200px;
+        background-color: #FFB342;
+    }
+
+    .ourreviews {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        gap: 20px;
+        border: 1px solid #DCDCDC;
+    }
+
+    .pricesfirstbox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Prices */
+
+    .pricescountainer {
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    .compricesbg {
+        background-color: #F4F4F4;
+    }
+
+    .pricesfirstbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 20px;
+    }
+
+    .pricestxtfirstbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 20px;
+    }
+
+    .pricestxtfirstbox h1 {
+        width: 80%;
+        font-family: 'Mulish';
+        font-size: 35px;
+        color: #1C2752;
+        text-align: center;
+    }
+
+    .pricesfirsttxt {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 150px;
+
+        font-family: 'inter';
+        font-size: 17px;
+        color: #1C2752;
+
+        background-color: #FFF;
+    }
+
+    .pricessmalltxt {
+        width: 80%;
+        font-family: 'inter';
+        font-size: 17px;
+        color: #7E7E7E;
+        text-align: center;
+    }
+
+    /* Price Cards */
+
+    .priccard {
+        background-color: #FFF;
+        width: 350px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .firsthalfcardtxt h1 {
+        color: #1C2752;
+        font-family: 'Mulish';
+        font-size: 32px;
+    }
+
+    .pricecardfirstbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .secondlalfcardtxt {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .secondlalfcardtxt  p {
+        font-family: 'Inter';
+        font-size: 15px;
+        color: #7E7E7E;
+    }
+
+    .secondlalfcardtxt h1 {
+        text-align: center;
+        width: 80px;
+        font-family: 'Inter';
+        font-size: 15px;
+        color: #1C2752;
+        background-color: #FFB342;
+        padding: 1px;
+    }
+
+    .firsthalfcardtxt p {
+        color: #1C2752;
+        font-family: 'Inter';
+        font-size: 20px;
+    }
+
+    .Cardline {
+        background-color: #DCDCDC;
+        height: 1px;
+        width: 100%;
+    }
+
+    .pricecardlist ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pricecardlist ul li {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+
+        font-family: 'Inter';
+        font-size: 17px;
+        color: #7E7E7E;
+    }
+
+    .pricecardlist ul li img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .pricecardlist button {
+        font-family: 'Inter';
+        font-size: 20px;
+        color: #1C2752;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB342;
+        width: 100%;
+        height: 60px;
+    }
+
+    .pricessecondbox {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .pricesthirdbox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricesthirdbox ul {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pricesthirdbox ul li {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 200px;
+    }
+
+    .priceslisttxt h1 {
+        font-family: 'Mulish';
+        font-size: 20px;
+        text-align: center;
+        color: #1C2752;
+    }
+
+    .priceslisttxt p {
+        font-family: 'Inter';
+        font-size: 17px;
+        color: #7E7E7E;
+        text-align: center;
     }
 }
