@@ -1219,6 +1219,171 @@
     color: #7E7E7E;
 }
 
+/* News */
+
+.Newsbg {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newsfirsttxt {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.newsboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.newsbox {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.newsh1 {
+    font-family: 'Mulish';
+    font-size: 45px;
+
+    color: #1C2752;
+}
+
+.newsmaintxt {
+    font-family: 'Inter';
+    font-size: 17px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+
+    background-color: #f2f2f2;
+}
+
+.newsbox {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.newsbtns {
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.newsbtns button:not(.newssecbtn) {
+    font-family: 'Mulish';
+    font-size: 17px;
+    color: #1C2752;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #FFC368;
+}
+
+.newssecbtn {
+    font-family: 'Mulish';
+    font-size: 17px;
+    color: #1C2752;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #FFB342;
+}
+
+.newstxt {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.newstxt h1 {
+    font-family: 'Mulish';
+    font-size: 30px;
+    color: #1C2752;
+}
+
+.newstxt p {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #7E7E7E;
+}
+
+.viewmorebtn {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #1C2752;
+}
+
+/* Subscribe */
+
+.Subscribebg {
+    background-color: #FFB342;
+    padding: 100px;
+}
+
+.Subscribebox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 500px;
+}
+
+.SubscribeFirsthalf {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.SubscribeFirsthalf h1 {
+    color: #1C2752;
+    font-family: 'Mulish';
+    font-size: 30px;
+}
+
+.SubscribeFirsthalf p {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #1C2752;
+    width: 410px;
+}
+
+.SubscribeSecondhalf input {
+    padding: 10px;
+    border: 3px solid #FFF;
+    color: #FFF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.SubscribeSecondhalf button {
+    padding: 13px;
+    background-color: #FFF;
+    margin-left: -5px;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 
 
 /* Mobile ver */
@@ -2351,5 +2516,36 @@
         font-size: 17px;
         color: #7E7E7E;
         text-align: center;
+    }
+
+    .Subscribebg {
+        background-color: #FFB342;
+        padding: 10px;
+    }
+
+    .SubscribeFirsthalf h1 {
+        color: #1C2752;
+        font-family: 'Mulish';
+        font-size: 30px;
+    }
+
+    .SubscribeFirsthalf p {
+        font-family: 'Inter';
+        font-size: 17px;
+        color: #1C2752;
+        width: 310px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .Subscribebox {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+        gap: 20px;
     }
 }
